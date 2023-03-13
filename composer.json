@@ -1,0 +1,31 @@
+{
+    "name": "mn-ali/qrcodephp",
+    "description": "QR Code Generator with PHP",
+    "type": "library",
+    "license": "proprietary",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MnAli\\Qrcodephp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "MOHAMMED ALI",
+            "email": "mohammednjmali@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "QRCode\\QRCodeProvider"
+            ]
+        }
+    },
+    "require-dev": {
+        "orchestra/testbench": "^3.8"
+    }
+}
